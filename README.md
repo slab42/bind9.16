@@ -100,7 +100,7 @@ To upgrade to newer releases:
   1. Download the updated Docker image:
 
   ```bash
-  docker pull sameersbn/bind:latest
+  docker pull sslab42/bind9.16:arm64v8
   ```
 
   2. Stop the currently running image:
@@ -120,7 +120,7 @@ To upgrade to newer releases:
   ```bash
   docker run -name bind -d \
     [OPTIONS] \
-    sameersbn/bind:latest
+    slab42/bind9.16:arm64v8
   ```
 
 ## Shell Access
