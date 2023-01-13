@@ -88,7 +88,7 @@ To upgrade to newer releases:
   1. Download the updated Docker image:
 
   ```bash
-  docker pull sslab42/bind9.16:arm64v8
+  docker pull slab42/bind9.16:arm64v8
   ```
 
   2. Stop the currently running image:
